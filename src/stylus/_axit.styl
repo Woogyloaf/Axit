@@ -70,7 +70,13 @@ header .text
     padding 10px 20px
     border 2px solid white
     display inline-block
+    font-weight 600
+    color white
+.slider .download-btn
     margin-top 40px
+.stylish .download-btn
+    display table
+    margin 0 auto
 .get-started-button
     color white
     height 50px
@@ -132,7 +138,7 @@ header .text
     box-shadow 0 3px 3px 3px $grey-light
    
 .social-media
-    height 100px 
+    // height 100px 
 .social-text
     width 395px
 .social-text h4
@@ -188,11 +194,14 @@ header .text
     font-size 20px
     font-weight 600
     
-
+.white-dash
 .orange-dash
     height 2px
     width 64px
+.orange-dash
     background #ff8b38
+.white-dash
+    background white
 
 .sublist h3
     text-align left
@@ -216,19 +225,33 @@ header .text
     margin 0 auto
 .box h3
     font-size 36px
-.why-awesome, 
+// .why-awesome, 
+// .pricing,
+// .feedbacks
+//     h5
+//         font-size 20px
+//         font-weight 600
+//         text-transform initial
+//     p
+//         font-size 14px
+//         line-height 20px
+//         color #86878b
+//         text-align center
+.why-awesome
 .pricing
-    h5
-        font-size 20px
-        font-weight 600
-        text-transform initial
+.feedbacks
+.stylish
+.contact-us
+    h3
+        margin 107px 0 27px 0
+        padding 0
     p
-        font-size 14px
-        line-height 20px
-        color #86878b
+        margin 27px 0 30px 0
         text-align center
 .pricing .orange-dash 
 .why-awesome .orange-dash
+.feedbacks  .orange-dash
+.contact-us  .orange-dash
     margin 0 auto
     
 .pricing h5
@@ -238,10 +261,162 @@ header .text
     height 59px
     border-bottom 2px solid white
     line-height 59px
-.pricing-plan p:first-child
-    font-size 94px
-.pricing-plan .dollar
-    font-size 35px
+    margin 0
+    padding 0
+    
+.pricing-plan p
+    display block
+    margin 0
+    padding 0
+.pricing-cost
+    background #292929
+    text-align center
+    // font-size 94px
     color white
-.pricing-plan p:first-child
+.pricing-cost p
+    font-style italic
+    margin 0
+    padding-bottom 20px
+.pricing-cost .dollar
+    font-size 35px
+    font-family $font-raleway
+    font-weight bold
+
+.pricing-dollars
+    text-align center
+    background #292929
+    border-bottom 5px solid orange
+.pricing-dollars p
+    font-size 14px
+    font-weight 400
+    font-style italic
+.pricing-cost .basic
+    font-family $font-raleway
     font-size 94px
+    color white
+    font-weight 800
+.specification
+    color #86878b
+    text-align center
+    background white
+.specification div
+    border-bottom 1px solid #f5f5f5
+    padding 16px 0 16px 0
+.orange-most-popular
+    min-height 5px
+    background #ff8b38
+    text-align center
+    
+.orange-most-popular p
+    color white
+    font-weight bold
+    padding 16px 0
+    margin 0
+.pricing .row .col-xs-4:nth-child(odd)
+    margin-top 47px
+
+
+
+// feeedbacks
+.feedback-block
+    width 273px
+.feedback
+    padding 22px 12px
+    background #f5f5f5
+    border-radius 3px;
+    position relative
+    color #86878b
+    font-family $font-open-sans
+    font-style italic
+    margin-bottom 27px;
+.feedback > .arrow
+    position absolute
+    bottom -20px
+    left 27px
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 20px solid #f5f5f5;
+
+
+.avatar
+    width 70px
+    height 70px;
+    float left
+.avatar_text
+    margin-left 15px
+    float left
+.avatar_text h6
+    font-size 20px
+    text-transform none
+    font-family $font-open-sans
+    font-weight 600
+.avatar_text p
+    font-family $font-open-sans
+    font-size 14px
+    color #86878b
+.avatar img
+    display block
+    float left
+    border-radius 50%
+    width 70px
+    height 70px
+    background #f09
+
+
+.stylish
+    background url('../images/img_style.jpg') center center
+    height 320px
+.stylish .white-dash
+    margin 0 auto
+.stylish .download-btn
+    text-align center
+    
+
+.stylish h3
+.stylish p
+    font-family $font-open-sans
+    color white
+    text-align center
+.contact-us input
+.contact-us textarea
+    width 100%
+    border none
+    border-bottom 1px solid #d6d6d6
+.contact-us input
+    height 60px
+.contact-us textarea
+    height 180px
+
+input.button-sm
+    width 144px
+    height 47px
+    line-height 47px
+    background #ff9b51
+    display block
+    margin 0 auto
+    border-radius 3px
+    box-shadow 0px 0px 5px 3px #f3f3f3
+    color white
+    font-family $font-open-sans
+    font-weight 600
+    margin-top 40px
+    clear both
+
+
+footer
+    margin-top 75px
+    background black
+    height 100px
+    text-align center
+    color white
+footer .social a
+    margin-top 30px
+    font-size 24px
+    color white
+    margin-right 30px
+    
+footer .copyright
+    margin-top 15px
+    font-size 12px
